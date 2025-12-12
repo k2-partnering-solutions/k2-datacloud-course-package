@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataPackageKitObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <masterLabel>S3ECommDataKit</masterLabel>
+    <parentDataPackageKitDefinitionName>S3ECommDataKit</parentDataPackageKitDefinitionName>
+    <referenceObjectName>Product_Related_Activity_Related_Activity_map_ssot_GoodsProduct_Related_Activity_Id_1721665215378</referenceObjectName>
+    <referenceObjectType>FieldSrcTrgtRelationship</referenceObjectType>
+</DataPackageKitObject>

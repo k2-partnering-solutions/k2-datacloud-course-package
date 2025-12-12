@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataSrcDataModelFieldMap xmlns="http://soap.sforce.com/2006/04/metadata">
+    <filterApplied>false</filterApplied>
+    <masterLabel>DataSrcDataModeluQgqSqYFlKjCyWT</masterLabel>
+    <sourceField>eComm_Related_Activity_Lookup1.Related_Activity__c</sourceField>
+    <targetField>Product_Related_Activity__dlm.Related_Activity__c</targetField>
+    <templateVersion>1</templateVersion>
+    <versionNumber>1.0</versionNumber>
+</DataSrcDataModelFieldMap>

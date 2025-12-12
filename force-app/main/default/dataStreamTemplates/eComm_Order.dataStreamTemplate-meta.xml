@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataStreamTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <dataConnectionSourceParameters>
+        <fullName>delimiter</fullName>
+        <paramName>delimiter</paramName>
+        <value>,</value>
+    </dataConnectionSourceParameters>
+    <dataConnectionSourceParameters>
+        <fullName>failWhenNoData</fullName>
+        <paramName>failWhenNoData</paramName>
+        <value>false</value>
+    </dataConnectionSourceParameters>
+    <dataConnectionSourceParameters>
+        <fullName>fileName</fullName>
+        <paramName>fileName</paramName>
+        <value>S3 Order Headers.csv</value>
+    </dataConnectionSourceParameters>
+    <dataConnectionSourceParameters>
+        <fullName>fileType</fullName>
+        <paramName>fileType</paramName>
+        <value>CSV</value>
+    </dataConnectionSourceParameters>
+    <dataConnectionSourceParameters>
+        <fullName>headerlessRetrievalEnabled</fullName>
+        <paramName>headerlessRetrievalEnabled</paramName>
+        <value>false</value>
+    </dataConnectionSourceParameters>
+    <dataSourceBundleDefinition>AmazonS3DSOs</dataSourceBundleDefinition>
+    <dataSourceObject>eComm_Order1</dataSourceObject>
+    <masterLabel>eComm Order</masterLabel>
+    <objectCategory>Salesforce_SFDCReferenceModel_0_93.Engagement</objectCategory>
+    <refreshFrequency>NONE</refreshFrequency>
+    <refreshMode>UPSERT</refreshMode>
+    <sourceObjectName>eComm_Order</sourceObjectName>
+    <streamType>INGEST</streamType>
+    <templateVersion>1</templateVersion>
+</DataStreamTemplate>
